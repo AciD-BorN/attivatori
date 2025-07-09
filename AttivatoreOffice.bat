@@ -57,7 +57,7 @@ if %trovati% EQU 0 (
 )
 
 echo.
-@TIMEOUT /T 20 /NOBREAK
+TIMEOUT /T 20 /NOBREAK
 exit
 
 :promemoria
@@ -67,5 +67,5 @@ echo Per eseguirlo come amministratore chiudere la finestra. Con il tasto destro
 echo selezionare il file e lanciare con la voce "Esegui come Amministratore..."
 echo.
 echo.
-@TIMEOUT /T 10 /NOBREAK
-@exit
+TIMEOUT /T 10 /NOBREAK
+exit
